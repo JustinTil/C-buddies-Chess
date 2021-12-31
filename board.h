@@ -20,7 +20,9 @@ typedef struct Board
 
 // Function prototypes
 Board InitBoard();
-int GetSquareColor(Square sqr);
 
+
+// other ideas: InitBoardFromFEN()
+//              InitBoardFromPGN()
 
 #endif

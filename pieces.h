@@ -11,8 +11,8 @@
 #define EMPTY 0
 
 // Numeric definition of the piece colors
-#define WHITE 0
-#define BLACK 1
+#define CHESS_WHITE 0
+#define CHESS_BLACK 1
 
 // Numeric definition of the square shades
 #define LIGHT 0

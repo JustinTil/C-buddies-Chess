@@ -27,7 +27,7 @@ Board InitBoard()
     brd.square[15].piece.type = PAWN;
     for (int i = 0; i < 16; i++)
     {
-        brd.square[i].piece.color = WHITE;
+        brd.square[i].piece.color = CHESS_WHITE;
     }
 
     brd.square[48].piece.type = PAWN;
@@ -48,7 +48,7 @@ Board InitBoard()
     brd.square[63].piece.type = ROOK;
     for (int i = 48; i < 64; i++)
     {
-        brd.square[i].piece.color = BLACK;
+        brd.square[i].piece.color = CHESS_BLACK;
     }
 
     // Initialize the shade of each square
