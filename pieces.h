@@ -2,12 +2,13 @@
 #define PIECES_H
 
 // Numeric definition of the pieces
-#define PAWN 0
-#define KNIGHT 1
-#define BISHOP 2
-#define ROOK 3
-#define QUEEN 4
-#define KING 5
+#define PAWN 1
+#define KNIGHT 2
+#define BISHOP 3
+#define ROOK 4
+#define QUEEN 5
+#define KING 6
+#define EMPTY 0
 
 // Numeric definition of the piece colors
 #define WHITE 0

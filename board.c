@@ -1,4 +1,5 @@
 #include "board.h"
+#include <stdlib.h>
 
 
 Board InitBoard()
@@ -51,7 +52,20 @@ Board InitBoard()
     }
 
     // Initialize the shade of each square
-    
+    for (int row = 0; row < 8; row++)
+    {
+        for (int col = 0; col < 8; col++)
+        {
+            if((col + row) % 2 == 0)
+            {
+                brd.square[row * 8 + col].shade = DARK;
+            }
+            else
+            {
+                brd.square[row * 8 + col].shade = LIGHT;
+            }
+        }
+    }
 
 
     return brd;

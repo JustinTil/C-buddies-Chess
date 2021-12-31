@@ -2,12 +2,13 @@
 #define BOARD_H
 
 #include "pieces.h"
-// structure definitions
 
+
+// structure definitions
 typedef struct Square
 {
     Piece piece;
-    const int shade;
+    int shade;
 }Square;
 
 
@@ -18,7 +19,6 @@ typedef struct Board
 
 
 // Function prototypes
-
 Board InitBoard();
 int GetSquareColor(Square sqr);
 
