@@ -2,7 +2,7 @@
 #define BOARD_H
 
 #include "pieces.h"
-
+//test github
 // structure definitions
 
 typedef struct Square
